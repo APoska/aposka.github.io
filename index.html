@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Faktor</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+      integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+      crossorigin=""
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid navigation__wrapper">
+      <div class="container">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+          <h1 class="navbar__title">
+            <a class="navbar-brand" href="#">FAKTOR</a>
+          </h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse navigation"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" id="offerAnchor">Oferta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="contactAnchor">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div
+          class="carousel-item active"
+          style="background-image: url('./assets/slider1.JPG')"
+        ></div>
+        <div
+          class="carousel-item"
+          style="background-image: url('./assets/slider2.JPG')"
+        ></div>
+        <div
+          class="carousel-item"
+          style="background-image: url('./assets/slider3.JPG')"
+        ></div>
+        <div
+          class="carousel-item"
+          style="background-image: url('./assets/slider4.JPG')"
+        ></div>
+        <div
+          class="carousel-item"
+          style="background-image: url('./assets/slider5.JPG')"
+        ></div>
+      </div>
+    </div>
+    <section class="container-fluid offer" id="offer">
+      <div class="container">
+        <div class="row offer__heading">
+          <div class="col">
+            <h2>Sklep budowlany FAKTOR w Turku oferuje:</h2>
+          </div>
+        </div>
+        <div class="row offer__content">
+          <div class="col">
+            <div class="offer__column">
+              <div class="offer__column-svg">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 486.569 486.569"
+                  style="enable-background:new 0 0 486.569 486.569;"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <path
+                      d="M146.069,320.369h268.1c30.4,0,55.2-24.8,55.2-55.2v-112.8c0-0.1,0-0.3,0-0.4c0-0.3,0-0.5,0-0.8c0-0.2,0-0.4-0.1-0.6
+                   c0-0.2-0.1-0.5-0.1-0.7s-0.1-0.4-0.1-0.6c-0.1-0.2-0.1-0.4-0.2-0.7c-0.1-0.2-0.1-0.4-0.2-0.6c-0.1-0.2-0.1-0.4-0.2-0.6
+                   c-0.1-0.2-0.2-0.4-0.3-0.7c-0.1-0.2-0.2-0.4-0.3-0.5c-0.1-0.2-0.2-0.4-0.3-0.6c-0.1-0.2-0.2-0.3-0.3-0.5c-0.1-0.2-0.3-0.4-0.4-0.6
+                   c-0.1-0.2-0.2-0.3-0.4-0.5c-0.1-0.2-0.3-0.3-0.4-0.5s-0.3-0.3-0.4-0.5s-0.3-0.3-0.4-0.4c-0.2-0.2-0.3-0.3-0.5-0.5
+                   c-0.2-0.1-0.3-0.3-0.5-0.4c-0.2-0.1-0.4-0.3-0.6-0.4c-0.2-0.1-0.3-0.2-0.5-0.3s-0.4-0.2-0.6-0.4c-0.2-0.1-0.4-0.2-0.6-0.3
+                   s-0.4-0.2-0.6-0.3s-0.4-0.2-0.6-0.3s-0.4-0.1-0.6-0.2c-0.2-0.1-0.5-0.2-0.7-0.2s-0.4-0.1-0.5-0.1c-0.3-0.1-0.5-0.1-0.8-0.1
+                   c-0.1,0-0.2-0.1-0.4-0.1l-339.8-46.9v-47.4c0-0.5,0-1-0.1-1.4c0-0.1,0-0.2-0.1-0.4c0-0.3-0.1-0.6-0.1-0.9c-0.1-0.3-0.1-0.5-0.2-0.8
+                   c0-0.2-0.1-0.3-0.1-0.5c-0.1-0.3-0.2-0.6-0.3-0.9c0-0.1-0.1-0.3-0.1-0.4c-0.1-0.3-0.2-0.5-0.4-0.8c-0.1-0.1-0.1-0.3-0.2-0.4
+                   c-0.1-0.2-0.2-0.4-0.4-0.6c-0.1-0.2-0.2-0.3-0.3-0.5s-0.2-0.3-0.3-0.5s-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3
+                   c-0.2-0.2-0.4-0.4-0.6-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.2-0.2-0.4-0.4-0.7-0.6c-0.1-0.1-0.3-0.2-0.4-0.3c-0.2-0.2-0.4-0.3-0.6-0.5
+                   c-0.3-0.2-0.6-0.4-0.8-0.5c-0.1-0.1-0.2-0.1-0.3-0.2c-0.4-0.2-0.9-0.4-1.3-0.6l-73.7-31c-6.9-2.9-14.8,0.3-17.7,7.2
+                   s0.3,14.8,7.2,17.7l65.4,27.6v61.2v9.7v74.4v66.5v84c0,28,21,51.2,48.1,54.7c-4.9,8.2-7.8,17.8-7.8,28c0,30.1,24.5,54.5,54.5,54.5
+                   s54.5-24.5,54.5-54.5c0-10-2.7-19.5-7.5-27.5h121.4c-4.8,8.1-7.5,17.5-7.5,27.5c0,30.1,24.5,54.5,54.5,54.5s54.5-24.5,54.5-54.5
+                   s-24.5-54.5-54.5-54.5h-255c-15.6,0-28.2-12.7-28.2-28.2v-36.6C126.069,317.569,135.769,320.369,146.069,320.369z M213.269,431.969
+                   c0,15.2-12.4,27.5-27.5,27.5s-27.5-12.4-27.5-27.5s12.4-27.5,27.5-27.5S213.269,416.769,213.269,431.969z M428.669,431.969
+                   c0,15.2-12.4,27.5-27.5,27.5s-27.5-12.4-27.5-27.5s12.4-27.5,27.5-27.5S428.669,416.769,428.669,431.969z M414.169,293.369h-268.1
+                   c-15.6,0-28.2-12.7-28.2-28.2v-66.5v-74.4v-5l324.5,44.7v101.1C442.369,280.769,429.669,293.369,414.169,293.369z"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="offer__column-content">
+                <h4 class="offer__column-heading">
+                  Sprzedaż materiałów budowlanych
+                </h4>
+                <p>
+                  Drzwi zewnętrzne oraz wewnętrzne, bramy garażowe, pokrycia
+                  dachowe, okna, farby, panele podłogowe, materiały izolacyjne,
+                  materiały budowlane
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="offer__column">
+              <div class="offer__column-svg">
+                <svg
+                  viewBox="0 0 511.99823 511"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m8.535156 512.488281h409.597656c4.714844 0 8.535157-3.820312 8.535157-8.53125v-76.800781h59.730469c4.714843 0 8.535156-3.820312 8.535156-8.53125v-85.335938c0-4.710937-3.820313-8.53125-8.535156-8.53125h-59.730469v-76.800781c0-4.714843-3.820313-8.535156-8.535157-8.535156h-15.660156c1.203125-5.578125-.070312-11.40625-3.488281-15.976563l-38.558594-51.398437 17.804688-13.355469c7.910156-5.921875 12.328125-15.414062 11.769531-25.28125l-.855469-15.367187c-.234375-4.167969 1.632813-8.175781 4.972657-10.679688l17.800781-13.351562 7.492187 9.984375c1.355469 1.808594 3.375 3.007812 5.617188 3.328125.398437.054687.800781.085937 1.207031.082031 1.847656.003906 3.644531-.597656 5.121094-1.707031l70.40625-52.816407c11.304687-8.480468 13.597656-24.523437 5.117187-35.832031l-4.742187-6.328125c-8.492188-11.292968-24.527344-13.578125-35.839844-5.109375l-70.398437 52.8125c-3.769532 2.828125-4.535157 8.179688-1.707032 11.949219l7.488282 9.984375-17.800782 13.355469c-7.910156 5.921875-12.332031 15.410156-11.769531 25.277344l.851563 15.367187c.238281 4.167969-1.628907 8.179687-4.96875 10.679687l-17.800782 13.355469-38.5625-51.398437c-4.035156-5.464844-10.589844-8.476563-17.367187-7.980469-6.464844.46875-12.242188 4.21875-15.308594 9.933594l-70.117187 130.472656h-200.300782c-4.714844 0-8.535156 3.820313-8.535156 8.535156v85.332031c0 4.714844 3.820312 8.535157 8.535156 8.535157h59.730469v68.265625h-59.730469c-4.714844 0-8.535156 3.820312-8.535156 8.535156v85.332031c0 4.710938 3.820312 8.53125 8.535156 8.53125zm468.003906-493.226562c3.765626-2.828125 9.113282-2.066407 11.945313 1.703125l4.742187 6.328125c2.824219 3.769531 2.058594 9.113281-1.707031 11.941406l-63.582031 47.699219-14.980469-19.976563zm-322.9375 407.894531h119.464844v68.265625h-119.464844zm68.265626-85.332031h119.464843v68.265625h-119.464843zm187.734374 153.597656h-119.46875v-68.265625h119.46875zm68.265626-85.332031h-119.46875v-68.265625h119.46875zm-68.265626-85.332032h-119.46875v-49.691406l87.34375-18.578125h32.125zm-115.609374-207.722656c.289062-.597656.890624-.980468 1.554687-1l.167969-.007812c.90625.015625 1.746094.464844 2.261718 1.207031l38.554688 51.398437-35.203125 26.410157c-3.769531 2.828125-4.535156 8.175781-1.707031 11.949219 2.828125 3.769531 8.175781 4.53125 11.949218 1.707031l35.203126-26.410157 38.558593 51.398438c.613281.75.792969 1.761719.46875 2.671875-.203125.632813-.738281 1.097656-1.394531 1.214844l-169.292969 36c-1.050781.164062-2.105469-.285157-2.710937-1.160157-.679688-.820312-.816406-1.960937-.351563-2.921874zm-95.238282 165.621094c4.546875 6.253906 12.351563 9.234375 19.910156 7.609375l54.402344-11.570313v46.0625h-119.464844v-68.269531h46.058594l-2.644531 4.921875c-3.65625 6.808594-2.972656 15.125 1.738281 21.246094zm-181.6875 7.96875h17.066406c4.714844 0 8.535157-3.820312 8.535157-8.535156 0-4.710938-3.820313-8.53125-8.535157-8.53125h-17.066406v-17.070313h119.46875v68.269531h-119.46875zm68.265625 51.199219h119.46875v68.265625h-119.46875zm-68.265625 85.332031h119.46875v68.265625h-119.46875zm0 0"
+                  />
+                  <path
+                    d="m110.933594 282.089844c0-4.710938-3.820313-8.53125-8.535156-8.53125h-34.132813c-4.710937 0-8.53125 3.820312-8.53125 8.53125 0 4.714844 3.820313 8.535156 8.53125 8.535156h34.132813c4.714843 0 8.535156-3.820312 8.535156-8.535156zm0 0"
+                  />
+                </svg>
+              </div>
+              <div class="offer__column-content">
+                <h4 class="offer__column-heading">Usługi budowlane</h4>
+                <p>
+                  Montaż stolarki okiennej oraz drzwi dostępnych w naszej
+                  ofercie, doradztwo w doborze materiałów budowlanych, usługi
+                  remontowo budowlane
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="contact__heading">Kontakt</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col contact__section">
+            <div class="contact__svg-wrapper">
+              <svg
+                class="contact__svg"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 512 512"
+                style="enable-background:new 0 0 512 512;"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    d="M256,0C156.748,0,76,80.748,76,180c0,33.534,9.289,66.26,26.869,94.652l142.885,230.257
+                   c2.737,4.411,7.559,7.091,12.745,7.091c0.04,0,0.079,0,0.119,0c5.231-0.041,10.063-2.804,12.75-7.292L410.611,272.22
+                   C427.221,244.428,436,212.539,436,180C436,80.748,355.252,0,256,0z M384.866,256.818L258.272,468.186l-129.905-209.34
+                   C113.734,235.214,105.8,207.95,105.8,180c0-82.71,67.49-150.2,150.2-150.2S406.1,97.29,406.1,180
+                   C406.1,207.121,398.689,233.688,384.866,256.818z"
+                  />
+                </g>
+                <g>
+                  <path
+                    d="M256,90c-49.626,0-90,40.374-90,90c0,49.309,39.717,90,90,90c50.903,0,90-41.233,90-90C346,130.374,305.626,90,256,90z
+                    M256,240.2c-33.257,0-60.2-27.033-60.2-60.2c0-33.084,27.116-60.2,60.2-60.2s60.1,27.116,60.1,60.2
+                   C316.1,212.683,289.784,240.2,256,240.2z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="contact__content">
+              <h3 class="contact__title">Sklep budowlany FAKTOR</h3>
+              <p class="contact__element">ul. Folwarczna 8</p>
+              <p class="contact__element">62-700 Turek</p>
+            </div>
+          </div>
+          <div class="col contact__section">
+            <div class="contact__svg-wrapper">
+              <svg
+                version="1.1"
+                class="contact__svg"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 60 60"
+                style="enable-background:new 0 0 60 60;"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                 S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"
+                  />
+                  <path
+                    d="M30,6c-0.552,0-1,0.447-1,1v23H14c-0.552,0-1,0.447-1,1s0.448,1,1,1h16c0.552,0,1-0.447,1-1V7C31,6.447,30.552,6,30,6z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="contact__content">
+              <h3 class="contact__title">Godziny otwarcia</h3>
+              <p class="contact__element">pon-pt: <span>7:00 - 18:00</span></p>
+              <p class="contact__element">sob: <span>7:00 - 13:00</span></p>
+            </div>
+          </div>
+          <div class="col contact__section">
+            <div class="contact__svg-wrapper">
+              <svg
+                version="1.1"
+                class="contact__svg"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 29.731 29.731"
+                style="enable-background:new 0 0 29.731 29.731;"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    d="M23.895,29.731c-1.237,0-2.731-0.31-4.374-0.93c-3.602-1.358-7.521-4.042-11.035-7.556
+                 c-3.515-3.515-6.199-7.435-7.558-11.037C-0.307,6.933-0.31,4.245,0.921,3.015c0.177-0.177,0.357-0.367,0.543-0.563
+                 c1.123-1.181,2.392-2.51,4.074-2.45C6.697,0.05,7.82,0.77,8.97,2.201c3.398,4.226,1.866,5.732,0.093,7.478l-0.313,0.31
+                 c-0.29,0.29-0.838,1.633,4.26,6.731c1.664,1.664,3.083,2.882,4.217,3.619c0.714,0.464,1.991,1.166,2.515,0.642l0.315-0.318
+                 c1.744-1.769,3.25-3.296,7.473,0.099c1.431,1.15,2.15,2.272,2.198,3.433c0.069,1.681-1.27,2.953-2.452,4.075
+                 c-0.195,0.186-0.385,0.366-0.562,0.542C26.103,29.424,25.126,29.731,23.895,29.731z M5.418,1C4.223,1,3.144,2.136,2.189,3.141
+                 C1.997,3.343,1.811,3.539,1.628,3.722C0.711,4.638,0.804,7.045,1.864,9.856c1.31,3.472,3.913,7.266,7.33,10.683
+                 c3.416,3.415,7.208,6.018,10.681,7.327c2.811,1.062,5.218,1.152,6.133,0.237c0.183-0.183,0.379-0.369,0.581-0.56
+                 c1.027-0.976,2.192-2.082,2.141-3.309c-0.035-0.843-0.649-1.75-1.825-2.695c-3.519-2.83-4.503-1.831-6.135-0.176l-0.32,0.323
+                 c-0.78,0.781-2.047,0.608-3.767-0.51c-1.193-0.776-2.667-2.038-4.379-3.751c-4.231-4.23-5.584-6.819-4.26-8.146l0.319-0.315
+                 c1.659-1.632,2.66-2.617-0.171-6.138C7.245,1.651,6.339,1.037,5.496,1.001C5.47,1,5.444,1,5.418,1z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="contact__content">
+              <h3 class="contact__title">Telefon</h3>
+              <a href="tel:669444409" class="contact__anchor">669 444 409</a>
+              <a href="tel:669443410" class="contact__anchor">669 443 410</a>
+            </div>
+          </div>
+          <div class="col contact__section">
+            <div class="contact__svg-wrapper">
+              <svg
+                version="1.1"
+                class="contact__svg contact__svg--email"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 370.88 370.88"
+                style="enable-background:new 0 0 370.88 370.88;"
+                xml:space="preserve"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M355.6,66.16H15.28C6.841,66.16,0,73.001,0,81.44v208c0,8.439,6.841,15.28,15.28,15.28H355.6
+                   c8.439,0,15.28-6.841,15.28-15.28v-208C370.88,73.001,364.039,66.16,355.6,66.16z M15.28,78.16H355.6
+                   c1.436,0.007,2.7,0.947,3.12,2.32L185.44,188.72L12.16,80.48C12.58,79.107,13.844,78.167,15.28,78.16z M12,94.16L136.64,172
+                   L12,270.88V94.16z M358.88,289.36c0,1.812-1.469,3.28-3.28,3.28H15.28c-1.811,0-3.28-1.469-3.28-3.28v-3.2l135.44-107.04
+                   l34.8,21.76c1.955,1.233,4.445,1.233,6.4,0l34.8-21.76l135.44,107.04V289.36z M358.88,270.88l-124.96-98.56l124.96-77.44V270.88z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="contact__content">
+              <h3 class="contact__title">E-mail</h3>
+              <a href="mailto:andrzej.fr@poczta.onet.pl" class="contact__anchor"
+                >andrzej.fr@poczta.onet.pl</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="map"></section>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const mymap = L.map('map').setView([52.0085, 18.5101355], 17);
+      L.tileLayer(
+        'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',
+        {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+            'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+          id: 'mapbox.streets'
+        }
+      ).addTo(mymap);
+      let marker = L.marker([52.0087, 18.5103955]).addTo(mymap);
+    </script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
