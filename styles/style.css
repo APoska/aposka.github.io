@@ -2,7 +2,9 @@ body {
   font-family: 'Lato', sans-serif;
   color: #3a405b;
 }
-
+.logo {
+  width: 120px;
+}
 .navbar {
   padding: 0.5rem 0;
 }
@@ -149,15 +151,20 @@ body {
 #map {
   height: 500px;
 }
+.navbar-nav .nav-link {
+  cursor: pointer;
+}
 @media (min-width: 576px) {
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 1rem 1rem;
     font-size: 18px;
     color: white;
     transition: color ease 500ms;
+    cursor: pointer;
   }
   .navbar-expand-sm .navbar-nav .nav-link:hover {
     color: #ffae19;
+    cursor: pointer;
   }
 }
 @media screen and (max-width: 1500px) {
