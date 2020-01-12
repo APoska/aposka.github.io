@@ -69,7 +69,7 @@ body {
 .offer__column {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   cursor: default;
 }
 .offer__column-svg {
@@ -95,6 +95,14 @@ body {
 }
 .offer__column:hover svg {
   fill: #fff;
+}
+.offer__content .col {
+  flex-basis: 50%;
+  flex-grow: 0;
+}
+
+.offer__content .col:nth-child(3) {
+  margin-top: 20px;
 }
 
 /* CONTACT */
@@ -216,6 +224,12 @@ body {
   }
   .contact__heading {
     padding-bottom: 20px;
+  }
+  .offer__content .col {
+    flex-basis: 100%;
+  }
+  .offer__content .col:nth-child(3) {
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 500px) {
